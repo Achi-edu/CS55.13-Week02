@@ -1,0 +1,41 @@
+{
+  "author": "Achilles",
+  "msg": "These are just a handful of great albums:",
+  "artists": [
+    {
+      "name" : "Elvis Costello",
+      "album" : "Brutal Youth",
+      "url" : "https://i.discogs.com/RW0AtujismjQnBdGBugo3YUx5fr8zeXhH047Fu7gwbk/rs:fit/g:sm/q:90/h:585/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczMTY4/OS0xNTAwNzc0NjQw/LTM5NzMuanBlZw.jpeg"
+    },
+    {
+      "name" : "Oingo Boingo",
+      "album" : "Boingo Alive",
+      "url" : "https://i.discogs.com/NJe7NSmRqihd44FC6PH_qDwKmkPDPtnA8hDjBmdc3ck/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyMjQy/OTctMTIwMjA3OTYw/MS5qcGVn.jpeg"
+    },
+    {
+      "name": "Jets to Brazil",
+      "album": "Perfecting Loneliness",
+      "url": "https://i.discogs.com/m-IJcPg_lw5NT-Ed6brhXm0h9jayuoKabcXV-UaSwTg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwOTcz/NDMtMTI5OTg0NDY1/Ni5qcGVn.jpeg"
+    },
+    {
+      "name" : "Bill Evans",
+      "album" : "Polka Dots And Moonbeams",
+      "url" : "https://i.discogs.com/d77DiCRL1nSnI5q7hgDzyzWCXs687qJ76_8yYFyZkig/rs:fit/g:sm/q:90/h:498/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NjEw/MDQtMTMwNDQyMTEw/OS5qcGVn.jpeg"
+    },
+    {
+      "name" : "Cat Power",
+      "album" : "Sings Dylan (The 1966 Royal Albert Hall Concert)",
+      "url" : "https://i.discogs.com/ZmVoYt7g-H3Zv0Tdx3zwo7L0oVMGjrGnhhR0ZFF_IAg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4ODYy/MTQwLTE3MTIwOTQ4/MzYtMTAwMS5qcGVn.jpeg"
+    },
+    {
+      "name" : "Karate",
+      "album" : "The Bed Is In the Ocean",
+      "url" : "https://i.discogs.com/WaS_ngznj6XmCvy5AvrK4R91twKroMkSdLFWlA_fDf4/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMjc2/NjMtMTE4NTY4MjQx/My5qcGVn.jpeg"
+    },
+    {
+      "name" : "Tin Hat Trio",
+      "album" : "The Rodeo Eroded",
+      "url" : "https://i.discogs.com/7qz9nd2CzwhlhIjPf4F3AcYTq981RRmJfGK1uWug1ww/rs:fit/g:sm/q:90/h:269/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NDY0/NjUtMTI5NDk1NTAz/MS5qcGVn.jpeg"
+    }
+  ]
+}

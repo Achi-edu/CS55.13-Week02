@@ -1,0 +1,11 @@
+# logs
+*.log
+
+# packages
+node_modules/
+.npm
+.yarn/cache
+vendor/
+
+# IDE files
+.idea

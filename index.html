@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Node.js Server</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="assets/styles.css">
+    <script type="importmap">
+        {
+          "imports": {
+            "react": "https://esm.sh/react@latest",
+            "react-dom/client": "https://esm.sh/react-dom@latest/client",
+            "react/jsx-runtime": "https://esm.sh/react@latest/jsx-runtime"
+          }
+        }
+    </script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+<div id="csApp"></div>
+
+<script data-type="module" data-presets="react" type="text/babel">
+  "use strict";
+
+  import React from 'react';
+  import { createRoot } from 'react-dom/client';
+
+  function AlbumList(props) {
+
+    return (
+        <div>
+            <h1>{props.data.msg}</h1>
+            <div className="contentBox">
+                {props.data.artists.map((artist, index) => (
+                    <ul key={index}>
+                        <li><img src={artist.url} alt={artist.album}/></li>
+                        <li>{artist.album}</li>
+                        <li>{artist.name}</li>
+                    </ul>
+                ))}
+            </div>
+        </div>
+    );
+  }
+
+  $.getJSON('./info.json', function(jsonData) {
+    const myRoot = createRoot(document.getElementById('csApp'));
+    myRoot.render(
+            <AlbumList data={jsonData} />
+    );
+  });
+</script>
+</body>
+</html>
