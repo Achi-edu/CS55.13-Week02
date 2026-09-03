@@ -5,12 +5,12 @@ const requestListener = function(req, res) {
   console.log(req.url);
 
   if (req.url === "/") {
-    fs.readFile(__dirname + "/index.html")
+    fs.readFile(__dirname + "/music-info.html")
         .then(contents => {
           res.writeHead(200, { "Content-Type": "text/html; charset=UTF-8" }).end(contents);
         });
-  } else if (req.url === "/info.json") {
-    fs.readFile(__dirname + "/info.json")
+  } else if (req.url === "/music_info.json") {
+    fs.readFile(__dirname + "/music_info.json")
         .then(contents => {
           res.writeHead(200, { "Content-Type": "application/json; charset=UTF-8" }).end(contents);
         });

@@ -44,7 +44,7 @@
     );
   }
 
-  $.getJSON('./info.json', function(jsonData) {
+  $.getJSON('./music_info.json', function(jsonData) {
     const myRoot = createRoot(document.getElementById('csApp'));
     myRoot.render(
             <AlbumList data={jsonData} />
