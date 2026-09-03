@@ -18,7 +18,7 @@
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body>
-<div id="csApp"></div>
+<div id="csJukeboxApp"></div>
 
 <script data-type="module" data-presets="react" type="text/babel">
   "use strict";
@@ -31,7 +31,7 @@
     return (
         <div>
             <h1>{props.data.msg}</h1>
-            <div className="contentBox">
+            <div className="contentJukebox">
                 {props.data.artists.map((artist, index) => (
                     <ul key={index}>
                         <li><img src={artist.url} alt={artist.album}/></li>
@@ -45,7 +45,7 @@
   }
 
   $.getJSON('./music_info.json', function(jsonData) {
-    const myRoot = createRoot(document.getElementById('csApp'));
+    const myRoot = createRoot(document.getElementById('csJukeboxApp'));
     myRoot.render(
             <AlbumList data={jsonData} />
     );
